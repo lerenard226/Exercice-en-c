@@ -7,5 +7,7 @@ int main(void)
     */
 
     //CODE
+    int volume=0;
+    const int PI=3.14;
     return 0;
 }

@@ -7,5 +7,12 @@ int main(void)
     */
 
     //CODE
+    int longueur,largeur,perimetre;
+    printf("Entrer la longueur du rectangle : ");
+    scanf("%d",&longueur);
+     printf("Entrer la largeur du rectangle : ");
+    scanf("%d",&largeur);
+    perimetre=(longueur+largeur)*2;
+    printf("le périmètre est de : %d",perimetre);
     return 0;
 }
